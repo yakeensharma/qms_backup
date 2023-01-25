@@ -195,6 +195,7 @@ function Forms() {
 <div >
 <div>Generate Form  : </div>
 <Button type="primary" onClick={() => {
+  window.open("http://localhost:3000/lossruns", "_blank")
           setData([...data, {
             id: count + 1,
             department: 'Insurance',
@@ -206,6 +207,7 @@ function Forms() {
 
           }])
           setCount(count + 1)
+          
         }}>Create Form</Button></div>
 </div>
 <div style={{display:"flex",marginTop:'8px'}}>

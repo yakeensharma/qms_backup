@@ -22,7 +22,7 @@ function Login() {
   const [inputPwd,setInputPwd] = useState("");
   const navigate = useNavigate();
   const navigateHome = () => {
-    navigate('/forms');
+    navigate('/hrMain');
   };
 
   return (
